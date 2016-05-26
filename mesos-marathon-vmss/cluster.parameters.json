@@ -1,26 +1,29 @@
 {
   "windowsAdminPassword": {
-    "value": "password1234$"
+    "value": "User@123"
   },
   "jumpboxEndpointDNSNamePrefix": {
-    "value": "anhowejb21h"
+    "value": "lizjumpbox"
   },
   "masterEndpointDNSNamePrefix": {
-    "value": "anhowemgmt21h"
+    "value": "lizmaster"
   },
   "agentEndpointDNSNamePrefix": {
-    "value": "anhoweapp21h"
+    "value": "lizagent"
   },
   "agentCount": {
-    "value": 3
+    "value": 1
   },
   "masterCount": {
-    "value": 3
+    "value": 1
   },
   "agentVMSize" : {
     "value": "Standard_A2"
   },
   "sshRSAPublicKey": {
-    "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC8fhkh3jpHUQsrUIezFB5k4Rq9giJM8G1Cr0u2IRMiqG++nat5hbOr3gODpTA0h11q9bzb6nJtK7NtDzIHx+w3YNIVpcTGLiUEsfUbY53IHg7Nl/p3/gkST3g0R6BSL7Hg45SfyvpH7kwY30MoVHG/6P3go4SKlYoHXlgaaNr3fMwUTIeE9ofvyS3fcr6xxlsoB6luKuEs50h0NGsE4QEnbfSY4Yd/C1ucc3mEw+QFXBIsENHfHfZYrLNHm2L8MXYVmAH8k//5sFs4Migln9GiUgEQUT6uOjowsZyXBbXwfT11og+syPkAq4eqjiC76r0w6faVihdBYVoc/UcyupgH azureuser@linuxvm"
+    "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDAvBBvirT0C2JE19IQi/nah5JAq0wU8D0j/fw/jRs75l5+F8nKmNBYz6BOa1no0p31CuMG1e556uT7BASpW9r6cGNwlN6xEzrgoVucIchnBACFQaaxcEJJl4xPIjfilMQVzwld9XfwJia8wjJaCaivcLMEkvosUBG9rJaT2ajDnEenA+qbDD7q08yNn+N+LHIy13ZjzPDLTR4MF9eLsz2r8iBp3k6Ai/iccITXgfMsIsAWI8XJubYv2NyvxquP8bCjyGt5XGVAV7jMFYsfpNMLGhnYoP8sxSNMuAAZ+y0CGzOjkokyDVa9bIbKPZChp1YE3LOnA3N46slDB6fYNspf"
+  },
+  "enableVMDiagnostics": {
+    "value":  false
   }
 }
