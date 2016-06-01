@@ -123,7 +123,7 @@
     },
     "linuxSku": {
       "type": "string",
-      "defaultValue": "14.04.4-LTS",
+      "defaultValue": "14.04.3-LTS",
       "metadata": {
         "description": "This is the linux sku used by the linux cluster"
       }
@@ -347,8 +347,8 @@
     "wadcfgxstart": "[concat(variables('wadlogs'),variables(concat('wadperfcounters1','-',variables('enableVMDiagnostics'))),variables(concat('wadperfcounters2','-',variables('enableVMDiagnostics'))),'<Metrics resourceId=\"')]",
     "wadcfgxend": "[concat('\"><MetricAggregation scheduledTransferPeriod=\"PT1H\"/><MetricAggregation scheduledTransferPeriod=\"PT1M\"/></Metrics></DiagnosticMonitorConfiguration></WadCfg>')]",
 
-    "computeApiVersion": "2016-03-30",
-    "networkApiVersion": "2016-03-30",
+    "computeApiVersion": "2015-06-15",
+    "networkApiVersion": "2015-06-15",
     "storageApiVersion": "2015-06-15",
 
     "vmSizesMap": {
@@ -593,7 +593,7 @@
           "osDisk": {
             "name": "[concat(variables('jumpboxVMName'),'-osdisk')]",
             "vhd": {
-              "uri": "[concat('http://', variables('masterStorageAccountName'), '.blob.core.windows.net/vhds/', variables('jumpboxVMName'), '-osdisk.vhd')]"
+              "uri": "[concat('http://', variables('masterStorageAccountName'), '.blob.core.chinacloudapi.cn/vhds/', variables('jumpboxVMName'), '-osdisk.vhd')]"
             },
             "caching": "ReadWrite",
             "createOption": "FromImage"
